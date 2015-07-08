@@ -40,7 +40,7 @@
             </and>
         </condition>
     </target>
-   <!-- <target name="generate-rest-config" depends="check-rest-config-props" if="do-generate-rest-config">
+    <target name="generate-rest-config" depends="check-rest-config-props" if="do-generate-rest-config">
         <mkdir dir="${build.generated.sources.dir}/rest/org/netbeans/rest/application/config/"/>
         <echo file="${build.generated.sources.dir}/rest/org/netbeans/rest/application/config/ApplicationConfig.java">/*
  * To change this template, choose Tools | Templates
@@ -59,7 +59,7 @@ package org.netbeans.rest.application.config;
  * 
  */
 @javax.ws.rs.ApplicationPath("${rest.resources.path}")
-public  class ApplicationConfig extends javax.ws.rs.core.Application {
+public class ApplicationConfig extends javax.ws.rs.core.Application {
 }</echo>
-    </target> -->
+    </target> 
 </project>
