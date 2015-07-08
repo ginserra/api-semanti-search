@@ -1,4 +1,4 @@
-[![Travis](http://img.shields.io/travis/ginserra/api-semantic-seacrh/master.png)](https://travis-ci.org/ginserra/api-semantic-search)
+[![Travis](http://img.shields.io/travis/ginserra/api-semanti-seacrh/master.png)](https://travis-ci.org/ginserra/api-semanti-search)
 
 
 
