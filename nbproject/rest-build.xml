@@ -59,7 +59,7 @@ package org.netbeans.rest.application.config;
  * 
  */
 @javax.ws.rs.ApplicationPath("${rest.resources.path}")
-public class ApplicationConfig extends javax.ws.rs.core.Application {
+public Abstract class ApplicationConfig extends javax.ws.rs.core.Application {
 }</echo>
     </target>
 </project>
